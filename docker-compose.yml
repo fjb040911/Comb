@@ -1,0 +1,46 @@
+version: '3.7'
+
+services:
+  ceryx:
+    image: sourcelair/ceryx:latest
+    ports:
+      - 80:80
+      - 443:443
+    depends_on:
+      - redis
+    environment:
+      - CERYX_DISABLE_LETS_ENCRYPT=false
+      - CERYX_DOCKERIZE_EXTRA_ARGS=-no-overwrite
+      - CERYX_REDIS_HOST=redis
+      - CERYX_REDIS_PORT=6379
+      - CERYX_NAME=Comb
+    command:
+      - usr/local/openresty/bin/openresty
+      - -g
+      - daemon off;
+      
+  api:
+    image: sourcelair/ceryx-api:latest
+    ports:
+      - 5555:5555
+    depends_on:
+      - redis
+      - ceryx
+    environment:
+      - CERYX_API_HOST=0.0.0.0
+      - CERYX_API_HOSTNAME=localhost
+      - CERYX_API_PORT=5555
+      - CERYX_DEBUG=false
+      - CERYX_REDIS_HOST=redis
+      - CERYX_REDIS_PORT=6379
+      - CERYX_NAME=Comb
+      
+  redis:
+    image: redis:3.2.11-alpine
+     
+networks:
+  default:
+    attachable: true
+    driver: bridge
+    name: ceryx
+

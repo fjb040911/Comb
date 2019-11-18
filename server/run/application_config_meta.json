@@ -1,0 +1,306 @@
+{
+  "keys": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/config/config.default.js",
+  "middleware": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/config/config.default.js",
+  "mongoose": {
+    "url": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/config/config.default.js",
+    "options": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/config/config.default.js",
+    "plugins": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-mongoose/config/config.default.js",
+    "loadModel": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-mongoose/config/config.default.js",
+    "app": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-mongoose/config/config.default.js",
+    "agent": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-mongoose/config/config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/config/config.default.js",
+      "type": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-view/config/config.default.js"
+  },
+  "httpProxy": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg-http-proxy/config/config.default.js",
+  "env": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+  "name": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "version": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "description": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "private": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "egg-http-proxy": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "egg-mongoose": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "moment": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "request": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "request-promise-native": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "url": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "stop": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "dev": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "debug": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "test": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "cov": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "lint": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "ci": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "autod": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "url": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "license": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "strict": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "depth": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "env": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "level": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "logging": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "port": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/fangjianbing/work/oal/guarder/guarder_saas_server/node_modules/egg/config/config.default.js"
+}
