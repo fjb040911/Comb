@@ -9,3 +9,4 @@
 7. 新增或者修改客户二级域名代理时，不会中断对外服务（不重启Nginx）
 
 ### 架构拓扑图如下所示
+![alt 架构和拓扑图](https://github.com/fjb040911/Comb/blob/master/docImgs/jg.png)
