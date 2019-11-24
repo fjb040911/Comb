@@ -52,3 +52,55 @@ Step4 -- release你的软件版本
 ```
 docker build -t gs:version
 ```
+## Comb Server管理API
+### 新增一个服务器节点
+```
+POST /api/server/add
+data = {
+ ip, // 集群内网ip，必填
+ name, // 机器名称，选填
+ describe, // 对机器的描述
+}
+```
+### 查询所有的服务节点
+```
+GET /api/server/list
+```
+### 删除一台服务节点
+```
+GET /api/server/:id/delete
+```
+### 查询客户列表
+```
+POST /api/cust/list
+
+```
+### 新增客户。会在指定的服务器上创建客户信息，并且生成外网的动态代理
+```
+POST /api/cust/add
+data = {
+  name, // 客户名称
+  describe, // 客户描述信息
+  domain, // 要访问客户的服务容器时候的二级域名。例如：打算用 https://abc.domain.com 访问到该用户的服务，这个值就填 abc
+  serverVersion, // 客户的服务使用的版本的id
+  versionName, // 客户的服务使用的版本的tag名称
+}
+```
+### 启停客户的服务容器
+```
+GET /api/cust/:custId/server/:action
+custId: 客户信息的_id
+action: 要对容器执行的动作，stop 暂停， start 开始运行
+
+```
+### 升级服务器
+例如release了新版本，现在要把其中某些客户的服务版本升级。内部是生成一个新版本的容器，再把Nginx的动态代理修改到新容器上，停止删除旧容器。
+所以升级的过程中服务并不会中断，客户的体验是平滑无缝切换到新版本
+```
+POST /api/cust/:custId/server/upgrade
+custId: 客户信息的_id
+data = {
+  serverVersion,
+  versionName
+}
+```
