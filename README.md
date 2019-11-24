@@ -8,6 +8,7 @@
 6. 监控每个客户系统资源状况
 7. 新增或者修改客户二级域名代理时，不会中断对外服务（不重启Nginx）
 
+### 简单讲每个二级域名请求可被直接代理到内网服务器集群中的指定容器和端口上
 ### 架构拓扑图如下所示
 ![alt 架构和拓扑图](https://github.com/fjb040911/Comb/blob/master/docImgs/jg.png)
 
@@ -19,9 +20,35 @@
 4. Comb Server需要安装并启动MongoDB
 
 ### 搭建步骤
-Step1
+Step1 -- 搭建 Ceryx 服务
 ```
 git clone https://github.com/fjb040911/Comb.git
 cd Comb
 docker-compose up -d
+```
+此时会在 Comb Server 服务器上启动一个由 Nginx+lua+redis 组成的动态域名代理服务。
+
+Step2 -- 搭建动态域名代理管理和服务节点容器管理的API服务
+```
+cd Comb/server
+npm install
+npm start
+or 
+npm run dev
+```
+注： Comb/client 是一个简单直观的Demo
+
+Step3 -- 内网集群中的节点机器上部署容器管理服务
+```
+git clone https://github.com/fjb040911/serviceNode.git
+cd serviceNode
+npm install
+npm start
+```
+访问内网的节点机器的7777端口API，可以管理这台机器上面的服务容器。包括：获取服务版本，创建服务容器，升级、停止、继续运行、删除某个容器等操作
+
+Step4 -- release你的软件版本
+在节点机器上
+```
+docker build -t gs:version
 ```
