@@ -70,7 +70,7 @@ GET /api/server/list
 ```
 GET /api/server/:id/delete
 ```
-### 查询客户列表
+### 查询客户列表（集群内部的容器列表）
 ```
 POST /api/cust/list
 
