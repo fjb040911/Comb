@@ -26,7 +26,7 @@ git clone https://github.com/fjb040911/Comb.git
 cd Comb
 docker-compose up -d
 ```
-此时会在 Comb Server 服务器上启动一个由 Nginx+lua+redis 组成的动态域名代理服务。
+此时会在 Comb Server 服务器上启动一个由 Nginx+lua+redis 组成的高性能动态域名代理服务。
 
 Step2 -- 搭建动态域名代理管理和服务节点容器管理的API服务
 ```
