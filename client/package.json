@@ -94,7 +94,7 @@
     "jest-puppeteer": "^4.2.0",
     "lint-staged": "^9.0.0",
     "mockjs": "^1.0.1-beta3",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "prettier": "^1.17.1",
     "pro-download": "1.0.1",
     "stylelint": "^10.1.0",
