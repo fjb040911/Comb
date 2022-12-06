@@ -53,7 +53,7 @@
     "numeral": "^2.0.6",
     "omit.js": "^1.0.2",
     "path-to-regexp": "^3.1.0",
-    "qs": "^6.9.0",
+    "qs": "^6.9.7",
     "react": "^16.8.6",
     "react-copy-to-clipboard": "^5.0.1",
     "react-document-title": "^2.0.3",
